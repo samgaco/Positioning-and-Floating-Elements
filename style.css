@@ -8,11 +8,14 @@
 	text-align: center;
 	font-size: 35px;
 	height: 15px;
+	
+	
 	}
 	
 	.header-text{
-
+		float: left;
 		font-size: 20px;
+		
 	}
 
 	
@@ -111,6 +114,8 @@ table {
 	border-spacing: 0;
 }
 
+a{text-decoration: none;
+color:rgb(31, 30, 30);}
 .title{
 	font-family: Verdana ;
 	font-size: 45px;
@@ -146,20 +151,20 @@ img.main-image{
 }
 
 .buttons{
-	float: right;
-	background-color: rgb(91, 106, 238); /* Green */
+float: right;
+background-color: rgb(91, 106, 238); /* Green */
   border: 1px solid rgb(45, 58, 177);
   color: white;
-  padding: 5px 16px;
+  padding: 5px 5px;
   text-align: center;
   text-decoration: none;
   font-size: 10px;
   cursor: pointer;
 	width: 122px;
 	height: 35px;
-	display: block;
+	
 	border-radius: 5%;
-	margin: 5px;
+	margin-right: 5px;
 }
 
 .buttons:hover {
