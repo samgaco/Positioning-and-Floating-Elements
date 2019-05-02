@@ -2,6 +2,21 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0 0 100px; /* bottom = footer height */
+}
+.footer {
+	background-color: #6288a5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+}
 .header {
 	text-align:center;
 	font-size: 35px;
@@ -54,7 +69,7 @@
 	float: left;
 	width: 25%;
 	padding: 10px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	
   }
 
 	
@@ -64,11 +79,7 @@
 	display: table;
 	clear: both;
   }
-  .footer {
-	background-color: #f1f1f1;
-	padding: 10px;
-	text-align: center;
-  }
+  
   @media (max-width: 600px) {
 	.column {
 	  width: 100%;
@@ -86,7 +97,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption,  header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -98,7 +109,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+ header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -251,14 +262,6 @@ p{
 }
 
 
-.footer{
-	height: 50px;
-	background: rgb(46, 46, 46);
-	color: white;
-	margin: auto;
-	width: 100%;
-	text-align: center;
-}
 
 
 .footer-text{
@@ -270,5 +273,5 @@ p{
 
 
 .footer-down{
-	clear: both;
+	
 }
