@@ -164,20 +164,24 @@ img.nyt-logo{
 }
 
 .buttons{
-float: right;
-background-color: rgb(91, 106, 238); /* Green */
-  border: 1px solid rgb(45, 58, 177);
-  color: white;
+  float: right;
+  background-color: #6288a5;
+	border: 1px solid #326891;
+	border-radius: 5%;
+	color: white;
+	
   text-align: center;
   text-decoration: none;
-  font-size: 10px;
-  cursor: pointer;
-	width: 115px;
-	height: 31px;
-	padding: 5px;
-	border-radius: 5%;
-	margin-right: 5px;
-	margin-top: 0.5%;
+  
+	cursor: pointer;
+	
+	width: 120px;
+	height: 35px;
+	padding: 7px; 
+	margin:0.3% 1% 0 0;
+
+	font-weight: bold;
+	font-size: 12px;
 }
 
 .buttons[value="LOG IN"]{
@@ -188,13 +192,18 @@ background-color: rgb(91, 106, 238); /* Green */
 }
 
 .buttons:hover {
-  background-color: #291ba3;
+  background-color: #326891;
 }
 
-.fab .fa-sistrix{
-	float: left;
-	margin-right: 50%;
-
+.fab.fa-sistrix{
+	font-size: 16px;
+	margin :1%;
+float: left;
+}
+.fas.fa-bars{
+	font-size: 16px;
+	margin :1%;
+float: left;
 }
 
 p{
