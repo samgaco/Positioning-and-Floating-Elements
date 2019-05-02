@@ -6,11 +6,9 @@
 
 .footer {
 	background-color: #6288a5;
-	height: 90px;
+	height: 50px;
 	width: 100%;
-	margin: 640% 0% auto auto;
 	display: block;
-
 }
 .header {
 	text-align:center;
@@ -19,7 +17,7 @@
 	border-bottom: 1px solid rgb(218, 216, 216);
 	position: fixed;
 	background: white;
-	
+	width:100%;
 
 	}
 	
@@ -34,8 +32,8 @@
 
 	
   .img-div{
-	width: 100%;
-	padding: 10px;
+	width: 98%;
+	padding: 2%;
 	justify-content: center;
 	
 	}
@@ -45,14 +43,14 @@
   .column.right {
 	float: left;
 	width: 25%;
-	padding: 10px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	padding: 2.5%;
+
   }
   .column.center {
 	float: left;
-	width: 50%;
-	padding: 10px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	width: 45%;
+	
+
 	text-align: center;
 	justify-content: center;
 
@@ -64,7 +62,7 @@
   .column.left {
 	float: left;
 	width: 25%;
-	padding: 10px;
+	padding: 2.5%;
 	
   }
 
@@ -197,9 +195,7 @@ img.nyt-logo{
 	margin: 1% 0;
 }
 .fas,.fab,.far{font-size:18px;margin:1.5%;float: right;}
-date{
-	margin-right: 50%;
-}
+
 
 .buttons{
   float: right;
@@ -216,7 +212,7 @@ date{
 	width: 120px;
 	height: 35px;
 	padding: 7px; 
-	margin:0.3% 1% 0 0;
+	margin:0.3% 1%0 0 0;
 
 	font-weight: bold;
 	font-size: 12px;
@@ -274,14 +270,9 @@ p{
 	float: right;
 	font-weight: bold;
 	font-size: 13px; 
-	margin: 3% -25% auto auto;
+
 	
 }
 
 
-.footer-down{
-
-
-	
-	}
 
