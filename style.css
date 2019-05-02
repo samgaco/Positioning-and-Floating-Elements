@@ -181,7 +181,7 @@ img.nyt-logo{
 	text-align: left;
 	margin: 1% 0;
 }
-.fas,.fab,.far{font-size:20px;margin:1.5%;}
+.fas,.fab,.far{font-size:18px;margin:1.5%;float: right;}
 date{
 	margin-right: 50%;
 }
@@ -248,4 +248,27 @@ p{
 
 .yt-video{
 	display: block;
+}
+
+
+.footer{
+	height: 50px;
+	background: rgb(46, 46, 46);
+	color: white;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+.footer-text{
+
+	color:white;
+
+
+}
+
+
+.footer-down{
+	clear: both;
 }
