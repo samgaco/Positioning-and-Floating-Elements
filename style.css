@@ -212,7 +212,7 @@ img.nyt-logo{
 	width: 120px;
 	height: 35px;
 	padding: 7px; 
-	margin:0.3% 1%0 0 0;
+	margin:0.3% 0.5% 0% 0.2%;
 
 	font-weight: bold;
 	font-size: 12px;
@@ -274,5 +274,23 @@ p{
 	
 }
 
+
+.nyt-links{
+
+	width: 100%;
+	background: grey;
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+	
+
+}
+
+.set-links{
+	width: 12%;
+	height: 50%;
+
+
+}
 
 
