@@ -169,6 +169,22 @@ img.nyt-logo{
 	margin: 0% auto;
 
 }
+.author-name{
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	margin: 1% 0;
+}
+.date-h{
+	
+	font-size: 13px;
+	text-align: left;
+	margin: 1% 0;
+}
+.fas,.fab,.far{font-size:20px;margin:1.5%;}
+date{
+	margin-right: 50%;
+}
 
 .buttons{
   float: right;
