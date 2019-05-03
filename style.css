@@ -287,6 +287,7 @@ p{
 	justify-content: center;
 	justify-content: space-between;
 	margin: 2% auto;
+	border-bottom: 1px solid #cfcfcf;
 
 }
 
@@ -307,6 +308,21 @@ p{
 	text-align: center;
 	display: block;
 
+
+}
+
+.nyt-data{
+
+	clear:both;
+	margin-bottom: 40px;
+	display: block;
+	text-align: center;
+	font-size: 10px;}
+
+.nyt-data a{
+
+	margin: auto 10px auto 10px;
+	color: rgb(168, 168, 168);
 
 }
 
@@ -477,4 +493,19 @@ p{
 	font-weight: bold;
 	padding-top: 5%;
 	padding-bottom: 0%;
+
+	}
+
+	.set-links-last{
+
+		justify-content: left;
+		padding-right: 5%;
+
+
+	}
+
+
+	.inflation-img{
+
+		width: 90%;
 	}
