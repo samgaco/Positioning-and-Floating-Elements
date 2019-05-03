@@ -45,8 +45,9 @@
 	float: right;
 	width: 23%;
 	padding: 1px;
-
+background:red;
   }
+  
   .column.center {
 	float: left;
 	width: 50%;
@@ -394,7 +395,7 @@ p{
 		margin: 5% auto auto auto;
 	}
 
-	.container-above-links{width:100%}
+	.container-above-links{width:75%}
 	
 	.in-container-above{
 		width:70%;
@@ -413,7 +414,7 @@ p{
 	}
 
 	.in-container-below{
-		width:70%;
+		width:60%;
 		display:flex;
 		flex-direction:row;
 		flex-wrap:wrap;
@@ -423,10 +424,9 @@ p{
 		width:32%;
 	}
 	.nav-bar{
-		width: 30%;
+		width: 20%;
 		background-color:red;
 		height:100%;
-		float:right;
 		border-top: 1px solid rgb(251, 255, 28);
 
 	}
@@ -441,7 +441,6 @@ p{
 		flex-direction:row ;
 		width:100%;
 		flex-wrap: wrap;
-
 		background: pink;
 	}
 
