@@ -277,15 +277,16 @@ p{
 
 
 .nyt-links{
-	width: 100%;
-	background: rgb(163, 158, 158);
+	width: 90%;
+
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	height: 50%;
 	justify-content: center;
 	justify-content: space-between;
-	margin-bottom: 2%;
-	background: white;
+	margin: 2% auto;
+
 }
 
 .set-links{
@@ -298,7 +299,6 @@ p{
 
 
 .above-links{
-
 	width: 100%;
 	clear: both;
 	margin-top: 8%;
@@ -317,3 +317,18 @@ p{
 	margin: 1% 90% auto 2%;
 	clear: both;}
 
+	.set-links.last{
+		border-left:1px solid grey;
+	}
+	.underlined-link{
+		border-bottom:1px solid grey;
+		margin-bottom: 10%;
+	}
+
+	.right-list{
+		
+	}
+	.right-container{
+		
+		
+	}
