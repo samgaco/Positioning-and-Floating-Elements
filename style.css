@@ -42,8 +42,8 @@
 
 
   .column.right {
-	float: left;
-	width: 25%;
+	float: right;
+	width: 23%;
 	padding: 1px;
 
   }
@@ -55,6 +55,7 @@
 	text-align: center;
 	justify-content: center;
 
+	
   }
   .column.center p{
 	text-align: left;
@@ -63,8 +64,7 @@
   .column.left {
 	float: left;
 	width: 25%;
-	padding: 10px;
-	
+	padding: 10px;	
   }
 
 	
@@ -327,8 +327,75 @@ p{
 
 	.right-list{
 		
+
+
+
 	}
-	.right-container{
+
+
+
+	.right-container-one{
+
+			width: 70%;
+			margin: 290% auto;
+		
+	}
+
+
+	.right-container-two{
+
+			width: 70%;
+			margin: auto;
+
+
 		
 		
+	}
+
+	.editors-picks{
+
+		border-bottom: 1px solid #cfcfcf;
+		margin: 10% 2% 10% 5%;
+		padding: 7%;
+		
+	}
+
+
+	.img-picks{
+
+		width: 35%;
+		float: left;
+		margin: auto 4% auto auto;
+	}
+
+	.right-container-one a{
+
+		float: right;
+		margin: 5% auto 2% 5%;
+		justify-content: left;
+		font-size: 15px;
+	}
+
+
+
+
+	.list-item-text-right{
+
+		font-size: 13px;
+		color: #979797;
+	}
+
+	.list-item-title-right{
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	
+
+	.buttons[value="right-btn"]{
+
+		width: 190px;
+		float: left;
+		text-align: center;
+		margin: 5% auto auto auto;
 	}
