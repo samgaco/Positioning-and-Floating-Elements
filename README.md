@@ -9,4 +9,7 @@
 #github: @samgaco
 
 
-## Clone of a youtube video page for the first microverse project
+## Design a New York Times page with a layout.
+
+##repository:
+## Demo: 
