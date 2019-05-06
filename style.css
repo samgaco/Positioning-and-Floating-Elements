@@ -310,6 +310,7 @@ p{
 	display: block;
 
 
+
 }
 
 .nyt-data{
@@ -415,6 +416,14 @@ p{
 	.container-above-links{
 		max-width: 100%;
 		max-height: 100%;
+		
+		display: flex;
+		flex-direction:row ;
+		background: pink;
+		flex-wrap: wrap;
+		float: left;
+		flex-grow : 1;
+
 	
 	}
 	
@@ -427,6 +436,7 @@ p{
 		padding-top: 2%;
 		border-top: 1px solid black;
 		background: #979797;
+		flex-grow : 1;
 		
 	
 	}
@@ -440,6 +450,7 @@ p{
 		flex-direction:row;
 		flex-wrap:wrap;
 		margin-bottom: 2%;
+		flex-grow : 1;
 
 	}
 	.below-container-child{
@@ -454,7 +465,8 @@ p{
 		font-size: 17px;
 		box-sizing: border-box;
 		display: flex;
-		
+		flex-grow : 1;
+
 
 	}
 	.container-above-header{
@@ -464,14 +476,14 @@ p{
 
 	}
 	.first-con {
-		display:flex;
+		display: flex;
 		flex-direction:row ;
 		width:70%;
-		flex-wrap: wrap;
 		background: pink;
+		flex-wrap: wrap;
 		float: left;
-		flex-grow: 1;
-	}
+		flex-grow : 1;
+		}
 
 
 	.cont-imgs{
