@@ -541,3 +541,42 @@ p{
 
 		width: 90%;
 	}
+
+	.inlation-div{
+		
+		width:100%;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		background-image: url(images/inflation-720.png);
+		background-size: cover;
+		background-position:
+		top left,
+		top right,
+		center,
+		bottom,
+		left bottom;
+		}
+	.in-inflation-div{
+		width:25%;
+	}
+
+	.in-inflation-div article{
+		padding: 5%;
+		font-size: 10pt;
+		text-align: justify;
+		box-sizing:border; 
+		
+	}
+	.span-first-word{
+		font-weight: bold;
+		font-family: monospace;
+		font-size: 10pt;
+	}
+
+	.in-inflation-div.top{
+		margin-top:16%;
+	}
+	.in-inflation-div.bottom{
+		margin-top:28%;
+	}
