@@ -412,10 +412,14 @@ p{
 		margin: 5% auto auto auto;
 	}
 
-	.container-above-links{width:100%}
+	.container-above-links{
+		max-width: 100%;
+		max-height: 100%;
+	
+	}
 	
 	.in-container-above{
-		width:70%;
+		width:100%;
 		display:flex;
 		flex-direction:row;
 		flex-wrap:wrap;
@@ -431,11 +435,12 @@ p{
 	}
 
 	.in-container-below{
-		width:70%;
+		width:100%;
 		display:flex;
 		flex-direction:row;
 		flex-wrap:wrap;
 		margin-bottom: 2%;
+
 	}
 	.below-container-child{
 		width:32%;
@@ -445,6 +450,11 @@ p{
 		background-color:red;
 		height:100%;
 		border-top: 1px solid rgb(251, 255, 28);
+		float: right;
+		font-size: 17px;
+		box-sizing: border-box;
+		display: flex;
+		
 
 	}
 	.container-above-header{
@@ -456,9 +466,11 @@ p{
 	.first-con {
 		display:flex;
 		flex-direction:row ;
-		width:100%;
+		width:70%;
 		flex-wrap: wrap;
 		background: pink;
+		float: left;
+		flex-grow: 1;
 	}
 
 
