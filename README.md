@@ -9,7 +9,7 @@
 #github: @samgaco
 
 
-## Design a New York Times page with a layout.
+## Clone of a New York Times page with a layout.
 
-##repository:
-## Demo: 
+
+## Live Demo: https://raw.githack.com/samgaco/Positioning-and-Floating-Elements/development/index.html
